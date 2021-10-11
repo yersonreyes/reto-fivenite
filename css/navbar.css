@@ -1,0 +1,41 @@
+.navbar{
+    block-size: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-list{
+    margin: 0;
+    padding: 0;
+    block-size: 3.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.navbar-item{
+
+}
+
+.navbar-item a{
+    block-size: 3.5rem;
+    text-decoration: none;
+    color: var(--grey);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item a:hover{
+    border-bottom: 3px solid var(--primary);
+}
+
+
+@media screen and (max-width: 1024px){
+
+    .navbar{
+        display: none;
+    }
+
+}

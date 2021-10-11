@@ -1,0 +1,33 @@
+@import './font/BurbankBigCondensed-Black.otf';
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import './header.css';
+@import './navbar.css';
+@import './button.css';
+@import './page.css';
+@import './hero.css';
+@import './content.css';
+@import './information.css';
+@import './footer.css';
+:root {
+  --black: #2a2a2a; 
+  --grey: #cccccc; 
+  --white: #ffffff; 
+  --primary: #ffff01; 
+  --title: #4DCCFA;
+  --body2-semibold: 600 0.75rem/1.5rem Open Sans;
+  --font-title: 600 55px/64px 'Bebas Neue';  
+  --font-title2: 600 32px/32px 'Bebas Neue';  
+  --font-content: 600 24px/32px 'Bebas Neue';   
+  --font-content2: 600 16px/24px 'Bebas Neue';   
+  --font-information: 600 48px/48px 'Bebas Neue';         
+}
+
+body {
+  margin: 0;
+  color: var(--white);
+  background-color: var(--white);
+  font: var(--body2-semibold);
+}
+
+
+
