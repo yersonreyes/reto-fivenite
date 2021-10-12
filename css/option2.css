@@ -1,0 +1,17 @@
+.option2{
+    display: none;
+}
+
+.option2.open{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--black);
+    width: 100vw;
+    height: calc(100vh - 3.5rem);
+    z-index: 100;
+}
+
+
+

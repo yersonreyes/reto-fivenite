@@ -1,0 +1,24 @@
+.navbar2{
+    
+}
+
+.navbar-list2{
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.navbar-item2{
+
+}
+
+.navbar-item2 a{
+    text-decoration: none;
+    color: var(--grey);
+    text-transform: uppercase;
+    display: flex;
+}
+

@@ -30,11 +30,13 @@
         </nav>
       </div>
       <div class="header-options">
-        <div class="option-search">
+        <div id="search" class="option-search">
           <input type="text">
-          <img src="./icons/search.svg" alt="">
+          <img  src="./icons/search.svg" alt="">
         </div>
-        <img src="./icons/globe.svg" alt="">
+        <img id="global" class="global" src="./icons/globe.svg" alt="">
+        <button id="button" class="button-menu">
+        </button>
         <button class="button">
           iniciar sesion
         </button>
@@ -42,11 +44,32 @@
           descargar
         </button>
       </div>
-      <button id="button" class="button-menu">
-        <img src="./icons/button.svg" alt="">
-      </button>
+     
     </div>
-    <div class="page">
+
+    <div id="option2" class="option2">
+      <nav class="navbar2">
+        <ul class="navbar-list2">
+          <li class="navbar-item2"><a href="#">Pase de batalla</a></li>
+          <li class="navbar-item2"><a href="#">Modo creativo</a></li>
+          <li class="navbar-item2"><a href="#">Salvar el mundo</a></li>
+          <li class="navbar-item2"><a href="#">Competitivo</a></li>
+          <li class="navbar-item2"><a href="#">Noticias</a></li>
+          <li class="navbar-item2"><a href="#">Ayuda</a></li>
+        </ul>  
+      </nav>
+      <div class="option2-buttons">
+        <button class="button2">
+          iniciar sesion
+        </button>
+        <button class="button2 is-yellow">
+          descargar
+        </button>
+      </div>
+    </div>
+
+
+    <div id="page" class="page">
       <div class="hero">
         <img src="./images/image 3.png" alt="">
       </div>
@@ -82,7 +105,7 @@
         <button class="button-information">MÁS INFORMACIÓN</button>
       </div>
     </div>
-    <footer class="footer">
+    <footer id="footer" class="footer">
       <img src="./images/logo-fortnite.png" alt="">
       <div class="footer-content">
         <div class="footer-content-list">
@@ -105,5 +128,7 @@
       </div>
     </footer>
   </div>
+
+  <script src="./js/app.js"></script>
 </body>
 </html>

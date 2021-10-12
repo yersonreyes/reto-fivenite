@@ -1,0 +1,23 @@
+.option2-buttons{
+ display: grid;
+ block-size: 3.5rem;
+ grid-auto-flow: column;
+
+
+}
+.button2{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: var(--black);
+    text-transform: uppercase;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.button2.is-yellow{
+    background: var(--primary);
+    color: var(--black);
+}
+
+

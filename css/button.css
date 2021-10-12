@@ -26,16 +26,29 @@
 }
 
 .button-menu{
+    block-size: 1.5rem;
+    inline-size: 1.5rem;
     display: none;
     border: none;
-    padding-inline-end: 1.5rem;
+    padding-inline-end: 2.5rem;
     margin: 0;
     background: transparent;
     color: var(--white);
     cursor: pointer;
+    background: url(../icons/button.svg);
+    background-repeat: no-repeat;
+}
+
+.button-menu.buttonx{
+    background: url(../icons/x.svg);
+    background-repeat: no-repeat ;
 }
 
 @media screen and (max-width: 700px){
+
+    .button{
+        display: none;
+    }
 
     .button-menu{
         display: initial;

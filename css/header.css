@@ -4,6 +4,7 @@
     justify-content: space-between;
     block-size: 3.5rem;
     background: var(--black);
+    position: relative;
 }
 
 .header-links{
@@ -40,9 +41,21 @@
     outline: none;
 }
 
+.option-search.open{
+    display: flex;
+}
+
+.global.open{
+    display: flex;
+}
+
 @media screen and (max-width: 700px){
 
-    .header-options{
+    .option-search{
+        display: none;
+    }
+
+    .global{
         display: none;
     }
     
